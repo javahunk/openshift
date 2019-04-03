@@ -54,8 +54,34 @@ kubectl get projects
 oc get projects
 
 
+
 sudo - super user do
 
 
+Install docker on CentOS 
+using https://docs.docker.com/install/linux/docker-ce/centos/
+
+Whever you runs the container it always use the resources of the host OS
+
+Kernel name space is 
+
+Virtualisation Vs Contanerisation
+__________________________________
+
+VM=> have own OS, own kernel means there are lot of things you never use ( bloatware). Use hyperviser, which is used to create VM
+    2 types ->
+        Type1-Needs and OS
+        Type2 -- No need an OS
+AD & LDAP - used to authenticate the users
+htpasswd - used to authenticate in the Master node
+
+SDS - Software Defined Storage - In order to keep your data persistant 
+SDN - Software Defined Networking
 
 
+Routing:
+
+To communicate between two containers or different pods.
+
+-----------
+oc logs podname
