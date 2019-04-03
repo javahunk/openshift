@@ -30,4 +30,32 @@ it=>interactive
 
 https://docs.openshift.com/container-platform/3.5/architecture/index.html
 
-All kernels are created in C language
+All kernels are created in C language.
+
+Every Open source projcts has EE ( Enterprise Edition) and CE ( Community Edition)
+
+Upstream Projects are CE of Open source projects
+
+For ex: OpenShift is the Upstream product of Kubernetis by Redhat
+
+POD is SANDBOX with multiple containers
+
+Problem with Docker:
+to run a container you have to be root. With root you can access the os files which is a threat. Patching this issue or any other
+issue, Docker takes lot of time.
+
+Podman is another container by Redhat like Docker, is root less and very fast patching mechanism
+
+Redhat created another layer on top of Kubernatis
+
+To see the list of projects in Kubernatis/Openshift:
+
+kubectl get projects
+oc get projects
+
+
+sudo - super user do
+
+
+
+
