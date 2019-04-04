@@ -17,3 +17,11 @@ Install OKD:
   wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
   rpm -ivh epel-release-latest-7.noarch.rpm
   EPEL - to install extra packages for enterprise edition
+2. SSH
+   For password less ssh login enter following command
+   ssh-keygen
+   enter
+   enter
+   This will generate the key
+   Now  send key to nodes 
+   ssh-copy-id hostname(bigboss.example.com)
