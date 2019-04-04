@@ -1,0 +1,19 @@
+Uninstall docker :
+
+yum remove docker \
+                  docker-client \
+                  docker-client-latest \
+                  docker-common \
+                  docker-latest \
+                  docker-latest-logrotate \
+                  docker-logrotate \
+                  docker-engine
+service list | grep docker
+yum remove "nameof above command"
+
+Install OKD:
+
+1. install EPEL repo
+  wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  rpm -ivh epel-release-latest-7.noarch.rpm
+  EPEL - to install extra packages for enterprise edition
