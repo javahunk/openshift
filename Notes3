@@ -1,0 +1,10 @@
+Check the status of OKD
+
+>oc status
+
+Creating a new user
+> oc create user javeed
+> cd /etc/origing/master
+> htpasswd -b /etc/origin/master/htpasswd javeed newpassword
+
+Now go to login console, which is available in oc status command output
