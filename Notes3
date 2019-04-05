@@ -8,3 +8,11 @@ Creating a new user
 > htpasswd -b /etc/origin/master/htpasswd javeed newpassword
 
 Now go to login console, which is available in oc status command output
+
+Create New Project:
+
+clikc on Create project
+
+Got to catalog
+
+Add the one which you need
